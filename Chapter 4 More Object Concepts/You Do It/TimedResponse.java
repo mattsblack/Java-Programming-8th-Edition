@@ -10,6 +10,6 @@ public class TimedResponse {
       time2 = LocalDateTime.now();
       seconds2 = time2.getSecond();
       difference = seconds2 - seconds1;
-      JOptionPane.showMessageDialog(null, "End seconds: " + seconds2 + "\nIt took " + difference + " seconds for you to answer");
+      JOptionPane.showMessageDialog(null, "End seconds: " + seconds2 + "\nStart seconds: " + seconds1 + "\nIt took " + difference + " seconds for you to answer");
    }
 }
