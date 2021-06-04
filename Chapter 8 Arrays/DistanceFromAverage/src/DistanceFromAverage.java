@@ -1,34 +1,30 @@
-import java.util.Scanner;
+import java.util.*;
 public class DistanceFromAverage {
-	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
-		double[] values = new double[20];
-		double average = 0;
-		int total = 0,i;
-		final int QUIT = 99999;
-		do {
-			System.out.println("Enter a number or 99999 to quit: ");
-			for(i = 0; i < values.length; ++i) {
-				values[i] = input.nextDouble();
-				if(values[i] == QUIT) {
-					--i;
-					break;
-				}
-				else {
-					total += values[i];	
-				}
-			}
-		}while(values.length < 20);
-		average = total/(i+1);
-		System.out.println("The average of the values is: " + average);
-		displayDistance(average, values);
-		input.close();
-	}
-	public static void displayDistance(double average, double values[]) {
-		for(int i = 0; i < values.length; ++i) {
-			System.out.println("Value " + (i+1) + ":");
-			System.out.println(values[i]);
-			System.out.println("The distance from the average is: " + (Math.max(average, values[i]) - Math.min(average, values[i])));
-		}  
-	}
+   public static void main(String args[]) {
+      Scanner input = new Scanner(System.in);
+      final int QUIT = 99999;
+      double[] array = new double[20];
+      int x = 1, y = 0, total = 0, entry;
+      double average;
+      System.out.println("Enter an integer or 99999 to quit: ");
+      entry = input.nextInt();
+      if(entry == QUIT) {
+    	  System.out.println("Enter a value.");
+      }
+      while(entry != QUIT && x < array.length) {
+    	  array[x] = entry;
+    	  total += entry;
+    	  System.out.println("Enter an integer or 99999 to quit: ");
+    	  entry = input.nextInt();
+    	  if(entry == QUIT)
+    		  break;
+    	  x++;
+      }
+      average = (double)total / x;
+      System.out.println("You entered " + x + " numbers and the average is " + average);
+      for(y = 1; y < x; ++y) {
+    	  System.out.println(array[y] + " is " + (array[y] - average) + " away from the average.");
+      }
+      input.close();
+   }
 }
