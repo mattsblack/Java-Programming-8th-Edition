@@ -44,7 +44,7 @@ w
 xyz
 ```
 
-**C. ```System.out.println("w\nxyz");```**
+**C. ```System.out.println("w \nxyz");```**
 ## Question 11
 The remainder operator ______.
  
