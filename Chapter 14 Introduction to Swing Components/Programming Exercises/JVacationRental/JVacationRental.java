@@ -15,7 +15,6 @@ public class JVacationRental {
     private static JRadioButton parksideButton;
     private static JRadioButton poolsideButton;
     private static JRadioButton lakesideButton;
-    private static JRadioButton oneBedroomButton;
     private static JRadioButton twoBedroomsButton;
     private static JRadioButton threeBedroomsButton;
     private static JRadioButton mealsIncludedButton;
@@ -48,7 +47,7 @@ public class JVacationRental {
         
         // Create the bedrooms selection components
         JLabel bedroomsLabel = new JLabel("Select Bedrooms:");
-        oneBedroomButton = new JRadioButton("1 Bedroom ($0)");
+        JRadioButton oneBedroomButton = new JRadioButton("1 Bedroom ($0)");
         twoBedroomsButton = new JRadioButton("2 Bedrooms ($" + BEDROOM_PRICE + "/week)");
         threeBedroomsButton = new JRadioButton("3 Bedrooms ($" + (BEDROOM_PRICE * 2) + "/week)");
         ButtonGroup bedroomsGroup = new ButtonGroup();

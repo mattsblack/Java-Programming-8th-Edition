@@ -9,7 +9,6 @@ public class JPhotoFrame extends JFrame implements ActionListener {
     private final JRadioButton onePersonRadioButton;
     private final JRadioButton twoOrMorePersonsRadioButton;
     private final JRadioButton petRadioButton;
-    private final JRadioButton inStudioRadioButton;
     private final JRadioButton onLocationRadioButton;
     private final JLabel priceLabel;
 
@@ -36,7 +35,7 @@ public class JPhotoFrame extends JFrame implements ActionListener {
         // Create panel for session location selection
         JPanel sessionLocationPanel = new JPanel(new GridLayout(2, 1));
         sessionLocationPanel.setBorder(BorderFactory.createTitledBorder("Session Location"));
-        inStudioRadioButton = new JRadioButton("In Studio ($0)");
+        JRadioButton inStudioRadioButton = new JRadioButton("In Studio ($0)");
         onLocationRadioButton = new JRadioButton("On Location ($90)");
         ButtonGroup sessionLocationGroup = new ButtonGroup();
         sessionLocationGroup.add(inStudioRadioButton);

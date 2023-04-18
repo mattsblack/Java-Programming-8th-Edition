@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55c55596-e3f3-4e98-8680-d0111b71c914" name="Changes" comment="add ch 1 and 2 review questions, exercises, debugging exercises, game zone, mad libs, and ch 14 programming exercises">
-      <change beforePath="$PROJECT_DIR$/Chapter 1 Creating Java Programs/Debugging Exercises/FixDebugOne4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter 1 Creating Java Programs/Debugging Exercises/FixDebugOne4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter 14 Introduction to Swing Components/Programming Exercises/JPhotoFrame/JPhotoFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter 14 Introduction to Swing Components/Programming Exercises/JPhotoFrame/JPhotoFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter 14 Introduction to Swing Components/Programming Exercises/JVacationRental/JVacationRental.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter 14 Introduction to Swing Components/Programming Exercises/JVacationRental/JVacationRental.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +128,7 @@
       <workItem from="1680355452364" duration="135000" />
       <workItem from="1680723182770" duration="1108000" />
       <workItem from="1681654855739" duration="17000" />
-      <workItem from="1681773208212" duration="11256000" />
+      <workItem from="1681773208212" duration="11323000" />
     </task>
     <task id="LOCAL-00001" summary="add first 5 exercises in ch 13">
       <created>1668463153391</created>
@@ -185,7 +186,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681784532486</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add ch 1 and 2 review questions, exercises, debugging exercises, game zone, mad libs, and ch 14 programming exercises">
+      <created>1681784628633</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681784628633</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add ch 1 and 2 review questions, exercises, debugging exercises, game zone, mad libs, and ch 14 programming exercises">
+      <created>1681784674116</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1681784674116</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
