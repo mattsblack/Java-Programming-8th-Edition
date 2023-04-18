@@ -1,8 +1,8 @@
 import javax.swing.*;
 public class FixDebugOne4
 {
-  public static main(String[] args)
+  public static void main(String[] args)
   {
-     JOptionPane.showMessageDialog(null, First GUI program)!
+     JOptionPane.showMessageDialog(null, "First GUI program");
   }
 }

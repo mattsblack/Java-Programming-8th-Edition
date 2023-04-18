@@ -4,44 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55c55596-e3f3-4e98-8680-d0111b71c914" name="Changes" comment="add ch 14 'you do it' exercises">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 1 Creating Java Programs/Case Problems/CarlysMotto/CarlysMotto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 1 Creating Java Programs/Case Problems/CarlysMotto/CarlysMotto2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 1 Creating Java Programs/Case Problems/SammysMotto/SammysMotto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 1 Creating Java Programs/Case Problems/SammysMotto/SammysMotto2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 1 Creating Java Programs/Chapter 1 Creating Java Programs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 1 Creating Java Programs/Debugging Exercises/FixDebugOne1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 1 Creating Java Programs/Debugging Exercises/FixDebugOne2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 1 Creating Java Programs/Debugging Exercises/FixDebugOne3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 1 Creating Java Programs/Debugging Exercises/FixDebugOne4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 1 Creating Java Programs/Game Zone/RandomGuess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 1 Creating Java Programs/Programming Exercises/exercises.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 1 Creating Java Programs/Review Questions/review questions.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 14 Introduction to Swing Components/Programming Exercises/JBookQuote/JBookQuote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 14 Introduction to Swing Components/Programming Exercises/JBookQuote/JBookQuote2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 14 Introduction to Swing Components/Programming Exercises/JCapitals/JCapitals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 14 Introduction to Swing Components/Programming Exercises/JDorm/JDorm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 14 Introduction to Swing Components/Programming Exercises/JDorm/JDorm2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 14 Introduction to Swing Components/Programming Exercises/JFrameDisableButton/JFrameDisableButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 14 Introduction to Swing Components/Programming Exercises/JFrameDisableButton/JFrameDisableButton2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 14 Introduction to Swing Components/Programming Exercises/JHistoricalFacts/JHistoricalFacts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 14 Introduction to Swing Components/Programming Exercises/JInsurance/JInsurance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 14 Introduction to Swing Components/Programming Exercises/JPhotoFrame/JPhotoFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 14 Introduction to Swing Components/Programming Exercises/JPizza/JPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 14 Introduction to Swing Components/Programming Exercises/JTVDownload/JTVDownload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 14 Introduction to Swing Components/Programming Exercises/JTVDownload/JTVDownload2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 14 Introduction to Swing Components/Programming Exercises/JVacationRental/JVacationRental.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 2 Using Data/Chapter 2 Using Data.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 2 Using Data/Debugging Exercises/FixDebugTwo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 2 Using Data/Debugging Exercises/FixDebugTwo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 2 Using Data/Debugging Exercises/FixDebugTwo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 2 Using Data/Debugging Exercises/FixDebugTwo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 2 Using Data/Programming Exercises/exercises.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 2 Using Data/Review Questions/review questions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter 2 Using Data/Programming Exercises/MadLib.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter 2 Using Data/Game Zone/MadLib.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter 2 Using Data/Programming Exercises/RandomGuessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter 2 Using Data/Game Zone/RandomGuessMatch.java" afterDir="false" />
+    <list default="true" id="55c55596-e3f3-4e98-8680-d0111b71c914" name="Changes" comment="add ch 1 and 2 review questions, exercises, debugging exercises, game zone, mad libs, and ch 14 programming exercises">
+      <change beforePath="$PROJECT_DIR$/Chapter 1 Creating Java Programs/Debugging Exercises/FixDebugOne4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter 1 Creating Java Programs/Debugging Exercises/FixDebugOne4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +127,7 @@
       <workItem from="1680355452364" duration="135000" />
       <workItem from="1680723182770" duration="1108000" />
       <workItem from="1681654855739" duration="17000" />
-      <workItem from="1681773208212" duration="10993000" />
+      <workItem from="1681773208212" duration="11256000" />
     </task>
     <task id="LOCAL-00001" summary="add first 5 exercises in ch 13">
       <created>1668463153391</created>
@@ -214,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681776950831</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add ch 1 and 2 review questions, exercises, debugging exercises, game zone, mad libs, and ch 14 programming exercises">
+      <created>1681784532486</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681784532486</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +208,8 @@
     <MESSAGE value="add more ch 13 exercises" />
     <MESSAGE value="add remaining ch 13 exercises" />
     <MESSAGE value="add ch 14 'you do it' exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ch 14 'you do it' exercises" />
+    <MESSAGE value="add ch 1 and 2 review questions, exercises, debugging exercises, game zone, mad libs, and ch 14 programming exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ch 1 and 2 review questions, exercises, debugging exercises, game zone, mad libs, and ch 14 programming exercises" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
