@@ -81,9 +81,7 @@ public class JPhotoFrame extends JFrame implements ActionListener {
             basePrice = 95;
         }
 
-        if (inStudioRadioButton.isSelected()) {
-            inStudioFee = 0;
-        } else if (onLocationRadioButton.isSelected()) {
+        if (onLocationRadioButton.isSelected()) {
             onLocationFee = 90;
         }
 

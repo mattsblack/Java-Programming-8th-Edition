@@ -79,9 +79,7 @@ public class JVacationRental {
                 } else if (lakesideButton.isSelected()) {
                     total += LAKESIDE_PRICE;
                 }
-                if (oneBedroomButton.isSelected()) {
-                // No additional cost for 1 bedroom
-                } else if (twoBedroomsButton.isSelected()) {
+                if (twoBedroomsButton.isSelected()) {
                     total += BEDROOM_PRICE;
                 } else if (threeBedroomsButton.isSelected()) {
                     total += BEDROOM_PRICE * 2;

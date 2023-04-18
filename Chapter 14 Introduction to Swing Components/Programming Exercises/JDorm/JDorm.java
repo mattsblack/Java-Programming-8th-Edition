@@ -116,16 +116,16 @@ public class JDorm {
         }
 
         // Update the messageTextArea with the list of selected options
-        String message = "Selected Options:\n";
+        StringBuilder message = new StringBuilder("Selected Options:\n");
         if (!selectedOptions.isEmpty()) {
             for (String option : selectedOptions) {
-                message += "- " + option + "\n";
+                message.append("- ").append(option).append("\n");
             }
         } else {
-            message += "None";
+            message.append("None");
         }
 
-        messageTextArea.setText(message);
+        messageTextArea.setText(message.toString());
     }
 
     public static void main(String[] args) {
