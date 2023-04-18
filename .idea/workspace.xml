@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="55c55596-e3f3-4e98-8680-d0111b71c914" name="Changes" comment="add remaining ch 13 exercises">
+      <change afterPath="$PROJECT_DIR$/.idea/Java-Programming-8th-Edition.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter 14 Introduction to Swing Components/You Do It/JAction/JAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter 14 Introduction to Swing Components/You Do It/JAction/JAction2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter 14 Introduction to Swing Components/You Do It/JDemoFrame/JDemoFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter 14 Introduction to Swing Components/You Do It/JDemoFrame/JDemoFrameThatCloses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter 14 Introduction to Swing Components/You Do It/JFrameWithComponents/CreateJFrameWithComponents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter 14 Introduction to Swing Components/You Do It/JFrameWithComponents/JFrameWithComponents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter 14 Introduction to Swing Components/You Do It/JResortCalculator/JResortCalculator.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HYKFvI99bmElsYM2UFy4L0tcta" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Matt/IdeaProjects/Java-Programming-8th-Edition",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "settings.sync",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="JDemoFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JDemoFrame.JDemoFrame" />
+      <module name="Java-Programming-8th-Edition" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JDemoFrame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JDemoFrame" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55c55596-e3f3-4e98-8680-d0111b71c914" name="Changes" comment="" />
+      <created>1668456476461</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668456476461</updated>
+      <workItem from="1668456478333" duration="5069000" />
+      <workItem from="1672670065720" duration="127000" />
+      <workItem from="1672670203389" duration="17000" />
+      <workItem from="1675799343376" duration="752000" />
+      <workItem from="1675800145490" duration="5719000" />
+      <workItem from="1676124987614" duration="48000" />
+      <workItem from="1676125045735" duration="4199000" />
+      <workItem from="1676314359743" duration="595000" />
+      <workItem from="1676407699075" duration="1385000" />
+      <workItem from="1676731164707" duration="890000" />
+      <workItem from="1676918812136" duration="633000" />
+      <workItem from="1676923812332" duration="1266000" />
+      <workItem from="1678127218718" duration="65000" />
+      <workItem from="1678127294919" duration="1000" />
+      <workItem from="1678987243787" duration="33000" />
+      <workItem from="1678987317324" duration="463000" />
+      <workItem from="1679317140711" duration="439000" />
+      <workItem from="1679420746441" duration="608000" />
+      <workItem from="1680117523737" duration="536000" />
+      <workItem from="1680118124756" duration="83000" />
+      <workItem from="1680118216302" duration="905000" />
+      <workItem from="1680354543322" duration="675000" />
+      <workItem from="1680355452364" duration="135000" />
+      <workItem from="1680723182770" duration="1108000" />
+      <workItem from="1681654855739" duration="17000" />
+      <workItem from="1681773208212" duration="3484000" />
+    </task>
+    <task id="LOCAL-00001" summary="add first 5 exercises in ch 13">
+      <created>1668463153391</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668463153391</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add first 5 exercises in ch 13">
+      <created>1668463160500</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668463160500</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add more ch 13 exercises">
+      <created>1681774420808</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681774420808</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add more ch 13 exercises">
+      <created>1681774430438</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681774430438</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add remaining ch 13 exercises">
+      <created>1681774626594</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681774626594</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add remaining ch 13 exercises">
+      <created>1681775685744</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681775685744</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add first 5 exercises in ch 13" />
+    <MESSAGE value="add more ch 13 exercises" />
+    <MESSAGE value="add remaining ch 13 exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="add remaining ch 13 exercises" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Java_Programming_8th_Edition$CompareFolders.ic" NAME="CompareFolders Coverage Results" MODIFIED="1668458089159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>CompareFolders.*</FILTER>
+    </SUITE>
+  </component>
+</project>
