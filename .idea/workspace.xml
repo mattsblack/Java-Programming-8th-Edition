@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5d14f34-fa3a-4b92-9e3c-6d05cbb97fd6" name="Changes" comment="add ch 15 &quot;you do it&quot; files">
-      <change afterPath="$PROJECT_DIR$/Chapter 15 Advanced GUI Topics/You Do It/EventSelector/EventSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 15 Advanced GUI Topics/You Do It/JBorderLayout/JBorderLayout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 15 Advanced GUI Topics/You Do It/JBorderLayout/JBorderLayoutNoNorth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 15 Advanced GUI Topics/You Do It/JBorderLayout/JBorderLayoutRight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 15 Advanced GUI Topics/You Do It/JBorderLayout/JCardLayout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 15 Advanced GUI Topics/You Do It/JBorderLayout/JCardLayout2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 15 Advanced GUI Topics/You Do It/JBorderLayout/JGridLayout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Java-Programming-8th-Edition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Java-Programming-8th-Edition.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b5d14f34-fa3a-4b92-9e3c-6d05cbb97fd6" name="Changes" comment="add ch 15 &quot;you do it&quot; files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681833252160</updated>
       <workItem from="1681833254205" duration="4448000" />
-      <workItem from="1682097655172" duration="1956000" />
+      <workItem from="1682097655172" duration="2462000" />
     </task>
     <task id="LOCAL-00001" summary="add chapter 3 review questions, debug and regular exercises, game zone, and case problems">
       <created>1681837616007</created>
@@ -97,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682097924235</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add ch 15 &quot;you do it&quot; files">
+      <created>1682100004581</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682100004581</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
