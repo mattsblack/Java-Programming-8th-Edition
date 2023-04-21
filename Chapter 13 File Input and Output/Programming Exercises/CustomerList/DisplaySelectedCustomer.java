@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class DisplaySelectedCustomer {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Path filePath = Paths.get("C:\\Users\\Matt\\IdeaProjects\\Java-Programming-8th-Edition\\Chapter 13 File Input and Output\\Programming Exercises\\CustomerList\\CustomerList.txt");
+        Path filePath = Paths.get("enter path here\\IdeaProjects\\Java-Programming-8th-Edition\\Chapter 13 File Input and Output\\Programming Exercises\\CustomerList\\CustomerList.txt");
         String s;
         String delimiter = ",";
         String[] array;

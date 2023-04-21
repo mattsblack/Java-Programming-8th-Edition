@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class ReadBankAccountsRandomly {
     public static void main(String[] args) {
-        Path filePath = Paths.get("C:\\Users\\Matt\\IdeaProjects\\Java-Programming-8th-Edition\\Chapter 13 File Input and Output\\Programming Exercises\\BankAccount\\BankAccounts.txt");
+        Path filePath = Paths.get("enter path here\\IdeaProjects\\Java-Programming-8th-Edition\\Chapter 13 File Input and Output\\Programming Exercises\\BankAccount\\BankAccounts.txt");
         Scanner sc = new Scanner(System.in);
         int accNum;
         boolean finished = false;

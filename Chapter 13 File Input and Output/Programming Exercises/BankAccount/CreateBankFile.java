@@ -19,7 +19,7 @@ public class CreateBankFile {
         final String delimiter = ",";
         final String QUIT = "q";
         Scanner sc = new Scanner(System.in);
-        Path filename = Paths.get("C:\\Users\\Matt\\IdeaProjects\\Java-Programming-8th-Edition\\Chapter 13 File Input and Output\\Programming Exercises\\BankAccount\\BankAccounts.txt");
+        Path filename = Paths.get("enter path here\\IdeaProjects\\Java-Programming-8th-Edition\\Chapter 13 File Input and Output\\Programming Exercises\\BankAccount\\BankAccounts.txt");
 
         String placeholderRecord = ACCOUNT_NUMBER_FORMAT + delimiter + NAME_FORMAT + delimiter + BALANCE_FORMAT + System.getProperty("line.separator");
         final int RECORD_LENGTH = placeholderRecord.length();

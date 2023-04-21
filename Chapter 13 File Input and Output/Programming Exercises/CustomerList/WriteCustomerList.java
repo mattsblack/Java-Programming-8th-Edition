@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class WriteCustomerList {
     public static void main(String[] args) {
-        Path filePath = Paths.get("C:\\Users\\Matt\\IdeaProjects\\Java-Programming-8th-Edition\\Chapter 13 File Input and Output\\Programming Exercises\\CustomerList\\customerList.txt");
+        Path filePath = Paths.get("enter path here\\IdeaProjects\\Java-Programming-8th-Edition\\Chapter 13 File Input and Output\\Programming Exercises\\CustomerList\\customerList.txt");
         Scanner input = new Scanner(System.in);
         String idString;
         int id;

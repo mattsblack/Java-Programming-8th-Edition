@@ -5,8 +5,8 @@ import java.nio.file.*;
 
 public class ValidateCheckDigits {
     public static void main(String[] args) {
-        Path filePath = Paths.get("C:\\Users\\Matt\\IdeaProjects\\Java-Programming-8th-Edition\\Chapter 13 File Input and Output\\Programming Exercises\\ValidateCheckDigits\\file.txt");
-        Path outputPath = Paths.get("C:\\Users\\Matt\\IdeaProjects\\Java-Programming-8th-Edition\\Chapter 13 File Input and Output\\Programming Exercises\\ValidateCheckDigits\\validnumbers.txt");
+        Path filePath = Paths.get("enter path here\\IdeaProjects\\Java-Programming-8th-Edition\\Chapter 13 File Input and Output\\Programming Exercises\\ValidateCheckDigits\\file.txt");
+        Path outputPath = Paths.get("enter path here\\IdeaProjects\\Java-Programming-8th-Edition\\Chapter 13 File Input and Output\\Programming Exercises\\ValidateCheckDigits\\validnumbers.txt");
         try {
             InputStream in = new BufferedInputStream(Files.newInputStream(filePath));
             BufferedReader reader = new BufferedReader(new InputStreamReader(in));

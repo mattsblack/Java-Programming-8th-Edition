@@ -4,32 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5d14f34-fa3a-4b92-9e3c-6d05cbb97fd6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 3 Using Methods, Classes, and Objects/Case Problems/CarlysEventPriceWithMethods/CarlysEventPriceWithMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 3 Using Methods, Classes, and Objects/Case Problems/CarlysEventPriceWithMethods/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 3 Using Methods, Classes, and Objects/Case Problems/CarlysEventPriceWithMethods/EventDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 3 Using Methods, Classes, and Objects/Case Problems/SammysRentalPriceWithMethods/Rental.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 3 Using Methods, Classes, and Objects/Case Problems/SammysRentalPriceWithMethods/RentalDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 3 Using Methods, Classes, and Objects/Case Problems/SammysRentalPriceWithMethods/SammysRentalPriceWithMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 3 Using Methods, Classes, and Objects/Debugging Exercises/FixDebugThree1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 3 Using Methods, Classes, and Objects/Debugging Exercises/FixDebugThree2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 3 Using Methods, Classes, and Objects/Debugging Exercises/FixDebugThree3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 3 Using Methods, Classes, and Objects/Debugging Exercises/FixDebugThree4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 3 Using Methods, Classes, and Objects/Game Zone/Card/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 3 Using Methods, Classes, and Objects/Game Zone/Card/PickTwoCards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 3 Using Methods, Classes, and Objects/Game Zone/Character/MyCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 3 Using Methods, Classes, and Objects/Game Zone/Character/TwoCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 3 Using Methods, Classes, and Objects/Programming Exercises/exercises.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 3 Using Methods, Classes, and Objects/Review Questions/questions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Java-Programming-8th-Edition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Java-Programming-8th-Edition.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+    <list default="true" id="b5d14f34-fa3a-4b92-9e3c-6d05cbb97fd6" name="Changes" comment="add markdown.xml (.idea)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter 1 Creating Java Programs/Chapter 1 Creating Java Programs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter 1 Creating Java Programs/Chapter 1 Creating Java Programs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter 13 File Input and Output/Chapter 13 File Input and Output.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter 13 File Input and Output/Chapter 13 File Input and Output.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter 2 Using Data/Chapter 2 Using Data.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter 2 Using Data/Chapter 2 Using Data.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter 2 Using Data/Review Questions/review questions.md" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter 2 Using Data/Review Questions/review questions.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,8 +65,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681833252160</updated>
-      <workItem from="1681833254205" duration="4004000" />
+      <workItem from="1681833254205" duration="4448000" />
     </task>
+    <task id="LOCAL-00001" summary="add chapter 3 review questions, debug and regular exercises, game zone, and case problems">
+      <created>1681837616007</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681837616007</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add markdown.xml (.idea)">
+      <created>1681837641264</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681837641264</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,5 +89,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add chapter 3 review questions, debug and regular exercises, game zone, and case problems" />
+    <MESSAGE value="add markdown.xml (.idea)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add markdown.xml (.idea)" />
   </component>
 </project>
