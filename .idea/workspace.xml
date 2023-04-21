@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5d14f34-fa3a-4b92-9e3c-6d05cbb97fd6" name="Changes" comment="add markdown.xml (.idea)">
+    <list default="true" id="b5d14f34-fa3a-4b92-9e3c-6d05cbb97fd6" name="Changes" comment="add ch 15 &quot;you do it&quot; files">
+      <change afterPath="$PROJECT_DIR$/Chapter 15 Advanced GUI Topics/You Do It/EventSelector/EventSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter 15 Advanced GUI Topics/You Do It/JBorderLayout/JBorderLayout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter 15 Advanced GUI Topics/You Do It/JBorderLayout/JBorderLayoutNoNorth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter 15 Advanced GUI Topics/You Do It/JBorderLayout/JBorderLayoutRight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter 15 Advanced GUI Topics/You Do It/JBorderLayout/JCardLayout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter 15 Advanced GUI Topics/You Do It/JBorderLayout/JCardLayout2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter 15 Advanced GUI Topics/You Do It/JBorderLayout/JGridLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Java-Programming-8th-Edition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Java-Programming-8th-Edition.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,25 +41,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Matt/IdeaProjects/Java-Programming-8th-Edition/Chapter 3 Using Methods, Classes, and Objects/Debugging Exercises",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Matt/IdeaProjects/Java-Programming-8th-Edition/Chapter 3 Using Methods, Classes, and Objects/Debugging Exercises&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Matt\IdeaProjects\Java-Programming-8th-Edition\Chapter 3 Using Methods, Classes, and Objects\Debugging Exercises" />
@@ -66,6 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1681833252160</updated>
       <workItem from="1681833254205" duration="4448000" />
+      <workItem from="1682097655172" duration="1956000" />
     </task>
     <task id="LOCAL-00001" summary="add chapter 3 review questions, debug and regular exercises, game zone, and case problems">
       <created>1681837616007</created>
@@ -81,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681837641264</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="replace path with placeholder">
+      <created>1682097924235</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682097924235</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +107,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add chapter 3 review questions, debug and regular exercises, game zone, and case problems" />
     <MESSAGE value="add markdown.xml (.idea)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add markdown.xml (.idea)" />
+    <MESSAGE value="replace path with placeholder" />
+    <MESSAGE value="add ch 15 &quot;you do it&quot; files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ch 15 &quot;you do it&quot; files" />
   </component>
 </project>
