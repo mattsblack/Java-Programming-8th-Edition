@@ -7,11 +7,9 @@ import java.awt.event.ActionListener;
 
 public class JEMail extends JFrame {
 
-    private JTextField toField;
-    private JTextField subjectField;
-    private JTextArea messageArea;
-    private JButton sendButton;
-    private JButton clearButton;
+    private final JTextField toField;
+    private final JTextField subjectField;
+    private final JTextArea messageArea;
 
     public JEMail() {
         setTitle("WebBuy E-Mail Composer");
@@ -39,9 +37,15 @@ public class JEMail extends JFrame {
         add(scrollPane, BorderLayout.CENTER);
 
         // Panel for Send and Clear buttons
+        JPanel bottomPanel = getBottomPanel();
+
+        add(bottomPanel, BorderLayout.SOUTH);
+    }
+
+    private JPanel getBottomPanel() {
         JPanel bottomPanel = new JPanel();
 
-        sendButton = new JButton("Send");
+        JButton sendButton = new JButton("Send");
         sendButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -50,7 +54,7 @@ public class JEMail extends JFrame {
         });
         bottomPanel.add(sendButton);
 
-        clearButton = new JButton("Clear");
+        JButton clearButton = new JButton("Clear");
         clearButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -58,8 +62,7 @@ public class JEMail extends JFrame {
             }
         });
         bottomPanel.add(clearButton);
-
-        add(bottomPanel, BorderLayout.SOUTH);
+        return bottomPanel;
     }
 
     private void sendEmail() {

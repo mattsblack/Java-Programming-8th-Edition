@@ -27,8 +27,6 @@ public class JColorFrame extends JFrame implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        //get the content pane
-        Container container = getContentPane();
         Object source = e.getSource();
         //array of regions represented by numbers (1 = north, 2 = south, 3 = east, 4 = west)
         int[] regionNumber = {1,2,3,4};

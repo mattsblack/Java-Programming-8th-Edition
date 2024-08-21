@@ -8,7 +8,7 @@ import java.util.Random;
 public class JVowelConsonant extends JFrame {
     private final String[] vowels = {"A", "E", "I", "O", "U"};
 
-    private JLabel label;
+    private final JLabel label;
     public JVowelConsonant() {
         super("Vowel or Consonant");
         // Create the buttons for each region

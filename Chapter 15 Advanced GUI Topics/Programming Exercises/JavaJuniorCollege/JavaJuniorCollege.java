@@ -15,48 +15,10 @@ public class JavaJuniorCollege extends JFrame {
         JMenuBar menuBar = new JMenuBar();
 
         // Create the "Campuses" menu
-        JMenu campusesMenu = new JMenu("Campuses");
-        JMenuItem mainCampus = new JMenuItem("Main Campus");
-        JMenuItem satelliteCampus = new JMenuItem("Satellite Campus");
-
-        mainCampus.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(JavaJuniorCollege.this, "Main Campus: Located in downtown Java City.");
-            }
-        });
-
-        satelliteCampus.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(JavaJuniorCollege.this, "Satellite Campus: Located in the suburbs of Java City.");
-            }
-        });
-
-        campusesMenu.add(mainCampus);
-        campusesMenu.add(satelliteCampus);
+        JMenu campusesMenu = getCampusesMenu();
 
         // Create the "Majors" menu
-        JMenu majorsMenu = new JMenu("Majors");
-        JMenuItem computerScience = new JMenuItem("Computer Science");
-        JMenuItem businessAdministration = new JMenuItem("Business Administration");
-
-        computerScience.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(JavaJuniorCollege.this, "Computer Science: Offers courses in programming, data structures, algorithms, and more.");
-            }
-        });
-
-        businessAdministration.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(JavaJuniorCollege.this, "Business Administration: Offers courses in management, finance, marketing, and more.");
-            }
-        });
-
-        majorsMenu.add(computerScience);
-        majorsMenu.add(businessAdministration);
+        JMenu majorsMenu = getMajorsMenu();
 
         // Create the "Activities" menu
         JMenu activitiesMenu = new JMenu("Activities");
@@ -87,6 +49,54 @@ public class JavaJuniorCollege extends JFrame {
 
         // Set the menu bar for the frame
         setJMenuBar(menuBar);
+    }
+
+    private JMenu getMajorsMenu() {
+        JMenu majorsMenu = new JMenu("Majors");
+        JMenuItem computerScience = new JMenuItem("Computer Science");
+        JMenuItem businessAdministration = new JMenuItem("Business Administration");
+
+        computerScience.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JOptionPane.showMessageDialog(JavaJuniorCollege.this, "Computer Science: Offers courses in programming, data structures, algorithms, and more.");
+            }
+        });
+
+        businessAdministration.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JOptionPane.showMessageDialog(JavaJuniorCollege.this, "Business Administration: Offers courses in management, finance, marketing, and more.");
+            }
+        });
+
+        majorsMenu.add(computerScience);
+        majorsMenu.add(businessAdministration);
+        return majorsMenu;
+    }
+
+    private JMenu getCampusesMenu() {
+        JMenu campusesMenu = new JMenu("Campuses");
+        JMenuItem mainCampus = new JMenuItem("Main Campus");
+        JMenuItem satelliteCampus = new JMenuItem("Satellite Campus");
+
+        mainCampus.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JOptionPane.showMessageDialog(JavaJuniorCollege.this, "Main Campus: Located in downtown Java City.");
+            }
+        });
+
+        satelliteCampus.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JOptionPane.showMessageDialog(JavaJuniorCollege.this, "Satellite Campus: Located in the suburbs of Java City.");
+            }
+        });
+
+        campusesMenu.add(mainCampus);
+        campusesMenu.add(satelliteCampus);
+        return campusesMenu;
     }
 
     public static void main(String[] args) {

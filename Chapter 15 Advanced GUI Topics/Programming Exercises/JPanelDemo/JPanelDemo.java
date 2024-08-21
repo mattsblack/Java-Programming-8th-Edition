@@ -4,7 +4,7 @@ import java.awt.*;
 import javax.swing.*;
 
 public class JPanelDemo extends JFrame {
-    Container container = null;
+    Container container;
     JFlexiblePanel panel1 = new JFlexiblePanel(Color.RED, Color.BLACK, new Font("Arial", Font.BOLD, 24), "North");
     JFlexiblePanel panel2 = new JFlexiblePanel(Color.BLUE, Color.WHITE, new Font("Arial", Font.BOLD, 24), "South");
     JFlexiblePanel panel3 = new JFlexiblePanel(Color.GREEN, Color.BLACK, new Font("Arial", Font.BOLD, 24), "East");

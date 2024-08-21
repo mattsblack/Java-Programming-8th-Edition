@@ -4,12 +4,10 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.Random;
 
 public class JMovingFrame extends JFrame implements ActionListener {
     private int num = 1;
-    private JButton button = new JButton("Click me");
-    private JLabel label = new JLabel("I'm a label");
+    private final JLabel label = new JLabel("I'm a label");
     private final JPanel panel1 = new JPanel(new FlowLayout());
     private final JPanel panel2 = new JPanel(new FlowLayout());
     private final JPanel panel3 = new JPanel(new FlowLayout());
@@ -22,6 +20,7 @@ public class JMovingFrame extends JFrame implements ActionListener {
         add(panel3, BorderLayout.EAST);
         add(panel4, BorderLayout.SOUTH);
 
+        JButton button = new JButton("Click me");
         panel4.add(button);
         panel1.add(label);
         button.addActionListener(this);

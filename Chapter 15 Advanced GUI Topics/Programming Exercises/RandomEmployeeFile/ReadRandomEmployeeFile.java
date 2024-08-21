@@ -9,15 +9,12 @@ import java.io.RandomAccessFile;
 
 public class ReadRandomEmployeeFile extends JFrame {
 
-    private JTextField idField;
-    private JTextArea displayArea;
-    private JButton retrieveButton;
+    private final JTextField idField;
+    private final JTextArea displayArea;
     private RandomAccessFile employeeFile;
 
     private static final int RECORD_SIZE = 100; // Total record size in bytes
-    private static final int ID_SIZE = 4;       // Employee ID size (int)
     private static final int NAME_SIZE = 30;    // First name/last name size (15 chars each)
-    private static final int PAY_RATE_SIZE = 8; // Hourly pay rate size (double)
 
     public ReadRandomEmployeeFile() {
         super("Employee Data Retrieval");
@@ -39,7 +36,7 @@ public class ReadRandomEmployeeFile extends JFrame {
         add(scrollPane, BorderLayout.CENTER);
 
         // Retrieve button
-        retrieveButton = new JButton("Retrieve Data");
+        JButton retrieveButton = new JButton("Retrieve Data");
         retrieveButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

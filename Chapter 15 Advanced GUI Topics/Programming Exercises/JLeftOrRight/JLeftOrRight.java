@@ -7,7 +7,7 @@ import java.awt.event.MouseEvent;
 
 public class JLeftOrRight extends JFrame {
 
-    private JLabel label;
+    private final JLabel label;
 
     public JLeftOrRight() {
         setTitle("Mouse Button Modifier Test");
@@ -19,7 +19,7 @@ public class JLeftOrRight extends JFrame {
         addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                int modifiers = e.getModifiers();
+                int modifiers = e.getModifiersEx();
                 String button = "";
 
                 if ((modifiers & MouseEvent.BUTTON1_MASK) != 0) {

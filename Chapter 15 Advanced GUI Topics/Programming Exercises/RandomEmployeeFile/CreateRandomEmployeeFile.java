@@ -9,14 +9,13 @@ import java.io.RandomAccessFile;
 
 public class CreateRandomEmployeeFile extends JFrame {
 
-    private JTextField idField, firstNameField, lastNameField, payRateField;
-    private JButton saveButton;
+    private final JTextField idField;
+    private final JTextField firstNameField;
+    private final JTextField lastNameField;
+    private final JTextField payRateField;
     private RandomAccessFile employeeFile;
 
     private static final int RECORD_SIZE = 100; // Total record size in bytes
-    private static final int ID_SIZE = 4;       // Employee ID size (int)
-    private static final int NAME_SIZE = 30;    // First name/last name size (15 chars each)
-    private static final int PAY_RATE_SIZE = 8; // Hourly pay rate size (double)
 
     public CreateRandomEmployeeFile() {
         super("Employee Data Entry");
@@ -42,7 +41,7 @@ public class CreateRandomEmployeeFile extends JFrame {
         add(payRateField);
 
         // Creating the Save button
-        saveButton = new JButton("Save Record");
+        JButton saveButton = new JButton("Save Record");
         saveButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -68,8 +67,8 @@ public class CreateRandomEmployeeFile extends JFrame {
                 return;
             }
 
-            String firstName = padString(firstNameField.getText(), NAME_SIZE / 2);
-            String lastName = padString(lastNameField.getText(), NAME_SIZE / 2);
+            String firstName = padString(firstNameField.getText());
+            String lastName = padString(lastNameField.getText());
             double payRate = Double.parseDouble(payRateField.getText());
 
             // Seek to the correct position in the file
@@ -96,9 +95,9 @@ public class CreateRandomEmployeeFile extends JFrame {
         }
     }
 
-    private String padString(String text, int length) {
+    private String padString(String text) {
         StringBuilder sb = new StringBuilder(text);
-        sb.setLength(length);
+        sb.setLength(15);
         return sb.toString();
     }
 

@@ -43,21 +43,27 @@ public class JMovieFrame extends JFrame {
             String star = "";
 
             // Set the year and star based on the movie
-            if (movie.equals("North by Northwest")) {
-                year = "1959";
-                star = "Cary Grant";
-            } else if (movie.equals("Gone with the Wind")) {
-                year = "1939";
-                star = "Clark Gable";
-            } else if (movie.equals("East of Eden")) {
-                year = "1955";
-                star = "James Dean";
-            } else if (movie.equals("True West")) {
-                year = "1984";
-                star = "Sam Shepard";
-            } else if (movie.equals("The Heart of the Matter")) {
-                year = "1953";
-                star = "Trevor Howard";
+            switch (movie) {
+                case "North by Northwest" -> {
+                    year = "1959";
+                    star = "Cary Grant";
+                }
+                case "Gone with the Wind" -> {
+                    year = "1939";
+                    star = "Clark Gable";
+                }
+                case "East of Eden" -> {
+                    year = "1955";
+                    star = "James Dean";
+                }
+                case "True West" -> {
+                    year = "1984";
+                    star = "Sam Shepard";
+                }
+                case "The Heart of the Matter" -> {
+                    year = "1953";
+                    star = "Trevor Howard";
+                }
             }
 
             //show movie details
